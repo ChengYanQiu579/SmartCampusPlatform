@@ -1,0 +1,21 @@
+# ============ 环境变量 ============
+*.env
+.env.*
+!.env.example
+
+# ============ Python 虚拟环境 ============
+.venv/
+venv/
+ENV/
+env/
+
+# ============ Python 缓存文件 ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.__pycache__/
+
+
+# ============ 处理过文档记录 ============
+backed_python/milvus.db/
+backed_python/processed/loaded_files.json
